@@ -1,0 +1,48 @@
+p {
+    font-family: serif,Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:rgba(0, 0, 0, 0.901);
+    line-height: 115%;
+}
+body {
+    max-width: 90%;
+    margin-right:5%;
+    margin-left: 5%;
+}
+blockquote{
+    font-size:160%;
+    background-color: rgb(162, 159, 159);
+    border-style: solid;
+    border-color:firebrick;
+    border-width:0px;
+    border-left-width: 3px;
+    padding-left: 30px;
+    margin-top: 80px;
+}
+.farmer{
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: yellow;
+}
+.villager{
+    font-style: italic;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-color: aquamarine;
+}
+body {
+background-image: url('https://cdn.britannica.com/90/7490-004-BAD4AA72/Flag-China.jpg');
+background-repeat:no-repeat;
+background-position: bottom-right;
+background-size:cover;
+background: -webkit-linear-gradient(76deg, rgb(237, 22, 22), rgb(255, 255, 255));
+background: linear-gradient(76deg, rgb(237, 22, 22), rgb(255, 255, 255));
+
+}
+.fig1{
+    margin-bottom: 80px;
+}
+header>h1{
+    background-color: yellow;
+} 
