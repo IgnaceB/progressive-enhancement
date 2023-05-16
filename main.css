@@ -4,11 +4,6 @@ p {
     color:rgba(0, 0, 0, 0.901);
     line-height: 115%;
 }
-body {
-    max-width: 90%;
-    margin-right:5%;
-    margin-left: 5%;
-}
 blockquote{
     font-size:160%;
     background-color: rgb(162, 159, 159);
@@ -32,13 +27,15 @@ blockquote{
     border-color: aquamarine;
 }
 body {
+max-width: 90%;
+margin-right:5%;
+margin-left: 5%;    
 background-image: url('https://cdn.britannica.com/90/7490-004-BAD4AA72/Flag-China.jpg');
 background-repeat:no-repeat;
 background-position: bottom-right;
 background-size:cover;
-background: -webkit-linear-gradient(76deg, rgb(237, 22, 22), rgb(255, 255, 255));
-background: linear-gradient(76deg, rgb(237, 22, 22), rgb(255, 255, 255));
-
+background: -webkit-radial-gradient(rgb(232, 29, 4), rgb(255, 4, 245));
+background: radial-gradient(rgb(232, 29, 4), rgb(255, 4, 245));
 }
 .fig1{
     margin-bottom: 80px;
@@ -46,3 +43,44 @@ background: linear-gradient(76deg, rgb(237, 22, 22), rgb(255, 255, 255));
 header>h1{
     background-color: yellow;
 } 
+span{
+    font-style: italic;
+    text-transform: capitalize;
+}
+span.bad{
+    color:red;
+}
+span.good{
+    color:green;
+}
+table{
+    border-color: aquamarine;
+    border-style:solid;
+    border-width: 1px;
+
+}
+tr:nth-child(even),th{
+    background: aliceblue;
+}
+tr:nth-child(odd){
+    background: rgb(33, 108, 174);
+}
+ul{
+    list-style-type: none;
+}
+li {
+    padding:25px 0px 25px 70px;
+    background-repeat: no-repeat;
+}
+li:nth-of-type(1) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/bien.png?token=GHSAT0AAAAAACCR2W7P2DGNRLPZR6S557XKZDDHB5Q);
+}
+li:nth-of-type(2) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/mal.png?token=GHSAT0AAAAAACCR2W7ODRQNJWBTCFXF5MUCZDDI4PA);
+}
+li:nth-of-type(3) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/chat.png?token=GHSAT0AAAAAACCR2W7P6Y3IEKYRQHLE3CIIZDDI44A);
+}
+p:first-of-type{
+    font-weight: bold;
+}
